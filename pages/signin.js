@@ -37,7 +37,7 @@ const Signin = () => {
         <p className="my-2">
           You Don't have an Account?
           <Link href="/register">
-            <a>Register</a>
+            <a style={{ color: "crimson" }}> Register</a>
           </Link>
         </p>
       </form>
