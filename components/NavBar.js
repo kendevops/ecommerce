@@ -36,7 +36,7 @@ const NavBar = () => {
           <li className="nav-item">
             <Link href="/cart">
               <a className={"nav-link" + isActive("/cart")}>
-                <i className="fas fa-shopping-cart"></i>
+                <i className="fas fa-shopping-cart" aria-hidden="true"></i>
                 Cart
               </a>
             </Link>
@@ -44,7 +44,7 @@ const NavBar = () => {
           <li className="nav-item">
             <Link href="/signin">
               <a className={"nav-link" + isActive("/signin")}>
-                <i className="fas fa-user"></i>
+                <i className="fas fa-user" aria-hidden="true"></i>
                 Sign in
               </a>
             </Link>
