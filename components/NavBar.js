@@ -24,12 +24,20 @@ const NavBar = () => {
           <li className="nav-item active">
             <Link href="/cart">
               <a className="nav-link">
-                {/* Home <span className="sr-only">(current)</span> */}
+                <i className="fas fa-shopping-cart"></i>
                 Cart
               </a>
             </Link>
           </li>
-          <li className="nav-item dropdown">
+          <li className="nav-item active">
+            <Link href="/cart">
+              <a className="nav-link">
+                <i className="fas fa-shopping-cart"></i>
+                Sign in
+              </a>
+            </Link>
+          </li>
+          {/* <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="#"
@@ -51,7 +59,7 @@ const NavBar = () => {
                 Logout
               </a>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
